@@ -1,0 +1,25 @@
+{
+  "name": "undetermined-sass-project",
+  "version": "1.0.0",
+  "description": "familiarizing myself with sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Warrehz/undetermined-sass-project.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "front-end"
+  ],
+  "author": "Mical Juarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Warrehz/undetermined-sass-project/issues"
+  },
+  "homepage": "https://github.com/Warrehz/undetermined-sass-project#readme"
+}
