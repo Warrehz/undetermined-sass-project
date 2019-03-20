@@ -5,6 +5,12 @@ h1 {
   color: $primary-brand-color;
 }
 
+#nav {
+  display: flex;
+  ul {
+    list-style-type: none;
+  }
+}
 
 // grid from simplegrid.io by Zach Cole at https://github.com/zachacole/Simple-Grid
 
