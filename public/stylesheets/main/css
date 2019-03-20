@@ -4,6 +4,24 @@
 /*colors*/
 /*sizes*/
 /*font*/
+h1 {
+  color: #F0C808;
+}
+
+#nav {
+  font-size: 6rem;
+  font-family: "Arimo", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+#nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+#nav ul li {
+  display: inline;
+}
+
 .container {
   width: 90%;
   margin-left: auto;
@@ -154,40 +172,5 @@
     display: block;
   }
 }
-html {
-  color: #43464F;
-  font-family: "Arimo", sans-serif;
-}
 
-h1 {
-  color: #43464F;
-}
-
-#nav {
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#nav ul {
-  list-style-type: none;
-  padding: 0px;
-}
-#nav ul .navItem {
-  display: inline;
-  padding-right: 3rem;
-}
-
-@media (max-width: 599px) {
-  #nav ul li:not(:first-child) {
-    display: none;
-  }
-
-  .logo {
-    align-self: center;
-  }
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=css.map */
