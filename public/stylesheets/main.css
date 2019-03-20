@@ -181,12 +181,15 @@ h1 {
 }
 
 @media (max-width: 599px) {
+  #nav ul {
+    margin-left: auto;
+    margin-right: auto;
+  }
   #nav ul li:not(:first-child) {
     display: none;
   }
-
-  .logo {
-    align-self: center;
+  #nav ul .navItem {
+    padding: 0px;
   }
 }
 
