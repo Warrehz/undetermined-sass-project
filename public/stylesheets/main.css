@@ -161,12 +161,43 @@ html {
 
 h1 {
   color: #43464F;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 100%;
 }
 
 #navbar {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: flex;
-  color: #FB958B;
+  font-weight: bold;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#search_form {
+  text-align: center;
+}
+
+.hero_container {
+  display: flex;
+  align-items: center;
+}
+
+.hero_image {
+  height: 50vh;
+  width: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbar_brand {
+  color: #4062BB;
+  font-size: 1.5rem;
 }
 
 .navbar_link {
