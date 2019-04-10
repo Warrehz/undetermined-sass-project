@@ -14,34 +14,42 @@ h1 {
 
 }
 
-#nav {
+#navbar {
   font-size: $standard-nav-size + .5;
   display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  ul {
-    list-style-type: none;
-    padding: 0px;
-    .navItem {
-      display: inline;
-      padding-right: 3rem;
-    }
-  }
+  color: $primary-brand-color;
 }
 
-@media (max-width: 599px) {
-  #nav {
-    ul {
-      margin-left: auto;
-      margin-right: auto;
-      li:not(:first-child) {
-        display: none;
-      }
-      .navItem {
-        padding: 0px;
-      }
-    }
+.navbar_link {
+  padding: 1rem;
+}
+
+.navbar_link_toggle {
+  display: none;
+}
+
+.navbar_items {
+  display: flex;
+}
+
+.navbar_items_right {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar_items, #navbar {
+    flex-direction: column;
+  }
+  .navbar_link_toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+  .navbar_items {
+    display: none;
+  }
+  .navbar_items_right {
+    margin-left: 0;
   }
 }

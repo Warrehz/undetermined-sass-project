@@ -4,18 +4,26 @@
     <meta charset="utf-8">
     <title>SASS Learning</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body>
 
 
-  <div id="nav">
-    <ul>
-      <li class="navItem" id="logo">Super Cool Name</li>
-      <li class="navItem">Features</li>
-      <li class="navItem">Reviews</li>
-      <li class="navItem">Pricing</li>
-      <li class="navItem">Blog</li>
-    </ul>
+  <div id="navbar">
+    <div class="navbar_link navbar_brand">Super Cool Name</div>
+    <div class="navbar_link navbar_link_toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <nav class="navbar_items">
+      <div class="navbar_link">Features</div>
+      <div class="navbar_link">Reviews</div>
+      <div class="navbar_link">Pricing</div>
+      <div class="navbar_link">Blog</div>
+    </nav>
+    <nav class="navbar_items navbar_items_right">
+      <div class="navbar_link">Link</div>
+      <div class="navbar_link">Link</div>
+    </nav>
   </div>
 
   <div class="container">

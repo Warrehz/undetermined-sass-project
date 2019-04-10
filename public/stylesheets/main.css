@@ -163,33 +163,46 @@ h1 {
   color: #43464F;
 }
 
-#nav {
+#navbar {
   font-size: 1.5rem;
   display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-#nav ul {
-  list-style-type: none;
-  padding: 0px;
-}
-#nav ul .navItem {
-  display: inline;
-  padding-right: 3rem;
+  color: #FB958B;
 }
 
-@media (max-width: 599px) {
-  #nav ul {
-    margin-left: auto;
-    margin-right: auto;
+.navbar_link {
+  padding: 1rem;
+}
+
+.navbar_link_toggle {
+  display: none;
+}
+
+.navbar_items {
+  display: flex;
+}
+
+.navbar_items_right {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar_items, #navbar {
+    flex-direction: column;
   }
-  #nav ul li:not(:first-child) {
+
+  .navbar_link_toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .navbar_items {
     display: none;
   }
-  #nav ul .navItem {
-    padding: 0px;
+
+  .navbar_items_right {
+    margin-left: 0;
   }
 }
 
